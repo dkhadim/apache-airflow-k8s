@@ -3,3 +3,12 @@ webserverSecretKey: NW1aTXlJaFVkUGtSeGV3TXFUVFQ4WWM2UUg0MWRjSVk=
 
 executor: "KubernetesExecutor"
 
+dags:
+  gitSync:
+    enabled: true
+    repo: https://github.com/dkhadim/apache-airflow-k8s.git
+    branch: main
+    rev: HEAD
+    depth: 1
+    maxFailures: 0
+    subPath: "dags"
