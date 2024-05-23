@@ -3,6 +3,10 @@ from datetime import datetime
 from airflow import DAG
 from airflow.decorators import task
 
+# Adding defaults_args
+
+# Using catchup=False
+
 with DAG(
         dag_id="hello_world",
         start_date=datetime(2024, 5, 23),
@@ -18,4 +22,4 @@ with DAG(
     def say_world():
         print("World guys !")
         
-    say_hello() >> say_world()    
+    say_hello() >> say_world()

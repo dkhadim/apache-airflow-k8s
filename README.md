@@ -1,6 +1,7 @@
 ## Déployer Apache airflow sur Kubernetes
 
-Bienvenue sur ce tutoriel qui met en avant le déploiement d'apache airflow sur k8s.
+Bienvenue sur ce tutoriel qui met en avant le déploiement d'apache airflow sur k8s. 
+<!-- TODO: continue -->
 
 ### Prérequis
 
